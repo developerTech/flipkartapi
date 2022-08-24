@@ -7,7 +7,6 @@ let port = process.env.PORT || 8500;
 
 let mongo = require('mongodb');
 let MongoClient = mongo.MongoClient;
-// let mongoUrl = process.env.MongoUrl;     // local url
 let mongoUrl = process.env.MongoLiveUrl;
 let db;
 
